@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EagleSec: A powerful, user-friendly hacking toolkit for ethical hackers and cybersecurity enthusiasts.">
+    <title>EagleSec - Hacking Toolkit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset and Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #101010;
+            color: #fff;
+            padding: 20px;
+        }
+        h1, h2 {
+            font-weight: 500;
+        }
+        p {
+            font-weight: 300;
+        }
+
+        /* Layout and Responsiveness */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .header {
+            background: linear-gradient(to right, #004E92, #000428);
+            padding: 50px;
+            color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .header:hover {
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.6);
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            background-color: #008CBA;
+            color: #fff;
+            padding: 20px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.3em;
+            display: inline-block;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 40px;
+        }
+
+        .button:hover {
+            background-color: #005f72;
+            transform: scale(1.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px;
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature h3 {
+            font-size: 1.6em;
+            color: #008CBA;
+            margin-bottom: 20px;
+        }
+
+        .feature p {
+            font-size: 1em;
+            color: #bbb;
+        }
+
+        /* Download Section */
+        .download {
+            background-color: #333;
+            padding: 50px 50px 100px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        .download h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #fff;
+        }
+
+        .download p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            color: #bbb;
+        }
+
+        .download a {
+            text-decoration: none;
+            background-color: #008CBA;
+            color: #fff;
+            padding: 20px 40px;
+            border-radius: 50px;
+            font-size: 1.3em;
+            display: inline-block;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .download a:hover {
+            background-color: #005f72;
+            transform: scale(1.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .footer p {
+            font-size: 1em;
+            color: #bbb;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .animated {
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        /* Mobile Responsiveness */
+        @media screen and (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature {
+                width: 90%;
+                margin: 15px auto;
+            }
+
+            .download a {
+                padding: 15px 30px;
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header Section -->
+        <div class="header animated">
+            <h1>EagleSec</h1>
+            <p>A powerful, user-friendly toolkit for ethical hacking and cybersecurity testing.</p>
+            <p>Download EagleSec to start securing your digital world and enhancing your cybersecurity skills today!</p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features">
+            <div class="feature">
+                <h3>Nmap Scanning</h3>
+                <p>Perform network scans to identify vulnerabilities and open ports with Nmap.</p>
+            </div>
+            <div class="feature">
+                <h3>Multi-Device Support</h3>
+                <p>Access EagleSec on your iPad, laptop, or desktop, all with a responsive design.</p>
+            </div>
+            <div class="feature">
+                <h3>Secure Login</h3>
+                <p>Login with Firebase Authentication, Google, or Outlook to keep your account secure.</p>
+            </div>
+        </div>
+
+        <!-- Download Section -->
+        <div class="download">
+            <h2>Download EagleSec</h2>
+            <p>Get the latest version of EagleSec and start exploring ethical hacking tools.</p>
+            <a href="https://github.com/stefaslsfij/EagleSec-App" target="_blank">Download EagleSec on GitHub</a>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>&copy; 2024 EagleSec. All Rights Reserved.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
